@@ -3,6 +3,7 @@
 // Listing 2-5: Ignoring a non-number guess and asking for another guess instead of crashing the program
 use std::io ;
 use std::cmp::Ordering ;
+// use std::{cmp::Ordering, io} ;
 use rand::Rng ;
 
 fn main() {
